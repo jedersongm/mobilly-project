@@ -11,5 +11,5 @@ package br.edu.ifpb.ads.padroes.mobilly.shared.beans;
  */
 public enum Status {
     
-    DISPONIVEL, LOCADO, RESERVADO, MANUTENÇÂO, BLOQUEADO;
+    DISPONIVEL, ALOCADO, RESERVADO, MANUTENÇÂO, BLOQUEADO;
 }

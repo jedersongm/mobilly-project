@@ -5,20 +5,23 @@
  */
 package br.edu.ifpb.ads.padroes.mobilly.shared.beans;
 
+import java.io.Serializable;
 import java.util.Objects;
 import javax.persistence.Embeddable;
-import javax.persistence.Embedded;
 
 /**
  *
  * @author jederson
  */
 @Embeddable
-public class Placa {
+public class Placa implements Serializable{
     
     private String numeracao;
     private String cidade;
     private String uf;
+
+    public Placa() {
+    }
 
     public Placa(String numeracao, String cidade, String uf) {
         this.numeracao = numeracao;

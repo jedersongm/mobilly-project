@@ -7,7 +7,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>mobilly-shared</module>
-    </modules>
+    <module>mobilly-core</module>
+  </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
